@@ -84,11 +84,7 @@
     ],
 
     "werewolf_app": "Application pour le jeu Loup-Garou",
-<<<<<<< HEAD
-    "warewolf_app_desc": "J'ai développé cette application pour aider le maitre du jeu à organiser sa partie de Loups-Garou.",
-=======
     "werewolf_app_desc": "J'ai développé cette application pour aider le maitre du jeu à organiser sa partie de Loups-Garou.",
->>>>>>> 76e0eda (Finished french translation and corrected some index issues)
     "skills_werewolf": [
         "Java 🔘",
         "Self-learning 🔘"
