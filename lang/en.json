@@ -9,7 +9,6 @@
     "make": "Make",
 
     "personnal_description": "Thibaut Bourgeais, passionate Mechatronics Engineer <br /> Welcome to my <mark>portfolio</mark><br /><br>",
-    "personnal_description": "Thibaut Bourgeais, passionate Mechatronics Engineer <br /> Welcome to my <mark>portfolio</mark><br /><br>",
     "resume_dl": "See my resume",
     "about_me": "About me",
     "professional_description": "Graduated in 2024, I have one and a half years of experience in diverse positions and already carried out many projects. Fluent in English and French I am eager to work in a startup environment.",
@@ -47,7 +46,6 @@
     ],
 
     "drinking_game": "Wooden electronic game",
-    "drinking_game_desc": "I created an electronic drinking game whose box is made of 3mm laser cut MDF. Inside, an arduino UNO card is responsible for animating the games. The glasses are illuminated according to the game and an i2c LCD screen manages the display of instructions.",
     "drinking_game_desc": "I created an electronic drinking game whose box is made of 3mm laser cut MDF. Inside, an arduino UNO card is responsible for animating the games. The glasses are illuminated according to the game and an i2c LCD screen manages the display of instructions.",
     "skills_drinking": [
         "C programming 🔘",
@@ -89,7 +87,6 @@
     "werewolf_app_desc": "I developped this app to help the master of the game to organize his Werewolf game.",
     "skills_werewolf": [
         "Java 🔘",
-        "UML 🔘",
         "Self-learning 🔘"
     ],
 
