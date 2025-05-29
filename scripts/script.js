@@ -19,37 +19,37 @@ function affichePopup(survolé){
   let textAMettre = "n/a"
   switch (survolé.id) {
     case 'catia':
-      textAMettre="Logiciel vu en cours"
+      textAMettre="Software learned in class"
       break;
     case 'selfLearn':
-      textAMettre="Ces projets m'ont amené constamment à apprendre par moi-même"
+      textAMettre="These projects led me to constantly learn by myself"
       break;
     case 'soif':
-      textAMettre="J'ai toujours l'envie d'apprendre et d'en savoir plus"
+      textAMettre="I always want to learn and know more"
       break;
     case 'collab':
-      textAMettre="Les films et les projets associatifs auxquels j'ai participé m'ont appris le travail d'équipe"
+      textAMettre="The films and associative projects in which I participated taught me how to work with several people"
       break;
     case 'savoirVivre':
-      textAMettre="Je m'adapte facilement aux différents profils et je suis à l'écoute"
+      textAMettre="I adapt easily to different profiles and I listen"
       break;
     case 'aisance':
-      textAMettre="Je suis toujours volontaire lorsqu'il faut prendre la parole ou défendre un projet"
+      textAMettre="I am always willing when it is necessary to speak or defend a project"
       break;
     case 'planification':
-      textAMettre="Il est important de savoir répartir les collaborateurs en fonction de leur domaine d'excellence"
+      textAMettre="It is important to know how to allocate employees according to their area of excellence"
       break;
     case 'pratique':
-        textAMettre="Ces compétences ont été acquises dans le cadre de mes projets personnels, surtout les expériences que l'on pourrait qualifier de \"bricolage\""
+        textAMettre="These skills were acquired through my personal projects, especially the experiences that could be described as \"DIY\""
         break;
     case 'logicielsPerso':
-      textAMettre="J'ai appris à utiliser ces logiciels hors de l'école"
+      textAMettre="I learned to use these software outside of school"
       break;
     case 'langages':
-      textAMettre="J'ai appris et pratiqué tous ces langages dans le cadre de mes projets"
+      textAMettre="I learned and practiced all these languages as part of my projects"
       break;
     case 'inge':
-      textAMettre="Les compétences que ma filière mécatronique m'a permis d'acquérir"
+      textAMettre="The skills that my mechatronics courses allowed me to acquire"
       break;
     default:
       textAMettre="n/a";
@@ -62,6 +62,53 @@ function retirePopup(){
   maBulle.style.visibility = 'hidden';
 }
 
+const triggerFlag = document.getElementById("triggerFlag");
+
+let userLang = localStorage.getItem("lang") || "en";
+
+function updateFlag(lang) {
+  triggerFlag.src = lang === "en" ? "medias/UKTrigger.png" : "medias/franceTrigger.png";
+}
+
+function loadLanguage(lang) {
+  fetch(`lang/${lang}.json`)
+    .then(res => res.json())
+    .then(data => {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (data[key]) el.innerHTML = data[key];
+      });
+
+      document.querySelectorAll('[data-i18n-list]').forEach(el => {
+        const key = el.getAttribute('data-i18n-list');
+        if (data[key] && Array.isArray(data[key])) {
+          el.innerHTML = ""; // vide la liste
+          data[key].forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            el.appendChild(li);
+          });
+        }
+      });
+
+      updateFlag(lang); // Update flag after change
+    });
+}
+
+triggerFlag.addEventListener("click", () => {
+  const newLang = userLang === "en" ? "fr" : "en";
+  localStorage.setItem("lang", newLang);
+  location.reload(); // reload page to load the correct lang file
+});
+
+
+
+
+loadLanguage(userLang);
+
+
 window.onload = screenVerif;
 
 //Thibaut BOURGEAIS
+
+

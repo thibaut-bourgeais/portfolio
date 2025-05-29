@@ -1,0 +1,71 @@
+{
+    "subtitle": "Junior Mechatronics Engineer",
+    "about": "About",
+    "album": "Album",
+    "skills": "Skills",
+    "linkedin": "Linkedin",
+    "think": "Think",
+    "design": "Design",
+    "make": "Make",
+
+    "personnal_description": "Thibaut Bourgeais, passionate Mechatronics Engineer <br /> Welcome to my <mark>portfolio</mark><br /></br>",
+    "resume_dl": "See my resume",
+    "about_me": "About me",
+    "professional_description": "Graduated in 2024, I have one and a half years of experience in diverse positions and already carried out many projects. Fluent in English and French I am eager to work in a startup environment.",
+
+    "ckc_website": "CKC Website",
+    "ckc_website_desc": "A website, designed to sell CKC brand products. Whose concept is to bring 3D printing to people without skills or machines.",
+    "skills_used": "Skills used :",
+    "skills_ckc": [
+        "🔘 HTML, CSS",
+        "🔘 3D Printing",
+        "🔘 CAD Softwares",
+        "🔘 Communication"
+    ],
+    "visit_website": "Visit the website",
+
+    "FPV_drone": "FPV racing drone",
+    "FPV_drone_desc": "I assembled, welded and then programmed my kit racing drone. It must then be repaired and kept up to date when there is a crash",
+    "skills_drone": [
+        "Welding 🔘",
+        "Meticulousness 🔘",
+        "Maintenance 🔘",
+        "Precision 🔘"
+    ],
+
+    "student_office": "Student office election",
+    "student_office_desc": "With 35 other students, we set up the \"INS'Avengers\" list where I am vice-president of communication and for which we had to find funding in order to make a film and do a whole week filled with activities. We were elected.<br /> To succeed we learned a lot about teamwork, skills management and volunteerism. I was in charge of communication on the networks (as well as various assets that we were able to publish on these), the shooting and editing of the film and the website.",
+    "skills_student_office": [
+        "🔘 Communication",
+        "🔘 Teamwork",
+        "🔘 Volunteerism",
+        "🔘 Attendance",
+        "🔘 Competitiveness",
+        "🔘 Social Networks",
+        "🔘 Video and photography editing, shooting"
+    ],
+
+    "drinking_game": "Wooden electronic game",
+    "drinking_game_desc": "I created an electronic drinking game whose box is made of 3mm laser cut MDF. Inside, an arduino UNO card is responsible for animating the games. The glasses are illuminated according to the game and an i2c LCD screen manages the display of instructions.</span>",
+    "skills_drinking": [
+        "C programming 🔘",
+        "Laser 🔘",
+        "Solidworks 🔘",
+        "Wiring 🔘"
+    ],
+
+    "movies": "Movies",
+    "movies_desc": "I was able in the personal, school or associative context, to make short films (documentary or fiction).",
+
+    "fiction": "Fiction ",
+    "documentary": "Documentary ",
+    "landscapes": "Landscapes ",
+    "skills_movies": [
+        "🔘 Video Editing <i>(Premiere Pro)</i>",
+        "🔘 Special effects <i>(After effect)</i>",
+        "🔘 Planning and scenario",
+        "🔘 Data management"
+    ]
+    
+
+}

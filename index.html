@@ -12,7 +12,7 @@
   <link rel="icon" href="medias/logoHexa.ico">
 
   <link rel="stylesheet" href="styles/style.css">
-  <script src="scripts/script_en.js"></script>
+  <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -20,55 +20,54 @@
   <div id="topMenu" style="z-index:1;">
     <div id="nomEnHaut">
       <a href="#">
-        <span id="grosNom">BOURGEAIS Thibaut<br /></span>
-        <span id="petitNom">INSA Engineering Student</span>
+        <span id="grosNom">BOURGEAIS Thibaut, 24<br /></span>
+        <span id="petitNom" data-i18n="subtitle"></span>
       </a>
     </div>
     <div id="navBar">
       <a href="#boiteAPropos">
-        <div>About</div>
+        <div data-i18n="about"></div>
       </a>
       <a href="#ancreGalerie">
-        <div>Album</div>
+        <div data-i18n="album"></div>
       </a>
       <a href="#competences">
-        <div>Skills</div>
+        <div data-i18n="skills"></div>
       </a>
       <a style="background-color:#037bfc; color:white;" href="https://www.linkedin.com/in/thibaut-bourgeais/">
-        <div>Linkedin</div>
+        <div data-i18n="linkedin"></div>
       </a>
     </div>
   </div>
 
-  <a href="index_fr.html"><img id="triggerFlag" src="medias/UKTrigger.png" /></a>
-
+  <img id="triggerFlag" src="medias/UKTrigger.png"/>
+  
+  <img id="headerPhoto" src="medias/ecolePhoto.jpg" />
   <div id="textAuCentre">
-    <span>Thibaut Bourgeais, Mechatronic Student at INSA Valenciennes, France.<br />
-      Here is <mark>portfolio</mark><br /></br></span>
+    <span data-i18n="personnal_description"><br /></span>
     <a href="medias/CV_en.pdf" download="CV_BOURGEAIS.pdf">
-      <div id="boutonDownload">See my resume</div>
+      <div id="boutonDownload" data-i18n="resume_dl"></div>
     </a>
   </div>
-  <img id="ecolePhoto" src="medias/ecolePhoto.jpg" />
 
   <div id="boiteAPropos">
-    <span style="font-size: 2em;">About me</span><br />
-    <span style="font-size: 1.3em;">Future graduate, I have already carried out many projects</span>
+    <span style="font-size: 2em;" data-i18n="about_me"></span><br />
+    <span style="font-size: 1.3em;" data-i18n="professional_description"></span>
     <div id="flexEtapes">
       <span style="display: inline-block;">
         <img class="iconsLevees" src="medias/reflechir.png" alt="reflechir">
         <br />
-        <span>Thinking</span>
+        <span data-i18n="think"></span>
       </span>
       <span style="display: inline-block;">
         <img class="iconsLevees" src="medias/concept.png" alt="reflechir">
         <br />
-        <span>Design</span>
+        <span data-i18n="design"></span>
       </span>
       <span style="display: inline-block;">
         <img class="iconsLevees" src="medias/make.png" alt="reflechir">
         <br />
-        <span>Make</span>
+        <span data-i18n="make"></span>
       </span>
     </div>
   </div>
@@ -79,20 +78,15 @@
       <br />
       <img class="iconsLevees" src="medias/codage.png" />
       <br />
-      <span style="font-size:1.3em; font-family: marianneExtraBold;">CKC Website</span>
+      <span data-i18n="ckc_website" style="font-size:1.3em; font-family: marianneExtraBold;"></span>
       <br /><br />
-      <span>A website, designed to sell CKC brand products. Whose concept is to bring 3D printing to people without skills or machines.</span>
+      <span data-i18n="ckc_website_desc"></span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
-      <ul type="none">
-        <li>🔘 HTML, CSS</li>
-        <li>🔘 3D Printing</li>
-        <li>🔘 CAD Softwares</li>
-        <li>🔘 Communication</li>
-      </ul>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
+      <ul data-i18n-list="skills_ckc" type="none"></ul>
       <br />
       <a href="http://ckc.imprimez.free.fr/">
-        <div class="boutonSmooth">Visit the website ></div>
+        <div data-i18n="visit_website" lass="boutonSmooth"></div>
       </a>
     </div>
   </div>
@@ -102,17 +96,12 @@
       <br />
       <img class="iconsLevees" src="medias/soudure.png" />
       <br />
-      <span style="font-size:1.3em; font-family: marianneExtraBold;">An FPV racing drone</span>
+      <span data-i18n="FPV_drone" style="font-size:1.3em; font-family: marianneExtraBold;"></span>
       <br /><br />
-      <span>I assembled, welded and then programmed my kit racing drone. It must then be repaired and kept up to date when there is a crash</span>
+      <span data-i18n="FPV_drone_desc"></span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
-      <ul type="none">
-        <li>Welding 🔘</li>
-        <li>Meticulousness 🔘</li>
-        <li>Maintenance 🔘</li>
-        <li>Precision 🔘</li>
-      </ul>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
+      <ul data-i18n-list="skills_drone" type="none"></ul>
     </div>
     <img class="imagesProjets" src="medias/drone.jpg" />
   </div>
@@ -123,18 +112,12 @@
       <br />
       <img class="iconsLevees" src="medias/crowd.png" style="width : 64px; height : 64px;" />
       <br />
-      <span style="font-size:1.3em; font-family: marianneExtraBold;">Student office election</span>
+      <span data-i18n="student_office" style="font-size:1.3em; font-family: marianneExtraBold;"></span>
       <br /><br />
-      <span>With 35 other students, we set up the "INS'Avengers" list where I am vice-president of communication and for which we had to find funding in order to make a film and do a whole week filled with activities. We were elected.<br /> To succeed we learned a lot about teamwork, skills management and volunteerism. I was in charge of communication on the networks (as well as various assets that we were able to publish on these), the shooting and editing of the film and the website.</span>
+      <span data-i18n="student_office_desc"></span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
-      <ul type="none">
-        <li>🔘 Communication</li>
-        <li>🔘 Willingness to succeed</li>
-        <li>🔘 Attendance</li>
-        <li>🔘 Competitiveness</li>
-        <li>🔘 Social Networks</li>
-        <li>🔘 Video and photography editing, shooting</li>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
+      <ul data-i18n-list="skills_student_office" type="none">
       </ul>
     </div>
   </div>
@@ -144,16 +127,12 @@
       <br />
       <img class="iconsLevees" src="medias/arduinoboard.png" />
       <br />
-      <span style="font-size:1.3em; font-family: marianneExtraBold;">Wooden electronic game</span>
+      <span data-i18n="drinking_game" style="font-size:1.3em; font-family: marianneExtraBold;"></span>
       <br /><br />
-      <span>I created an electronic drinking game whose box is made of 3mm laser cut MDF. Inside, an arduino UNO card is responsible for animating the games. The glasses are illuminated according to the game and an i2c LCD screen manages the display of instructions.</span>
+      <span data-i18n="drinking_game_desc"></span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
-      <ul type="none">
-        <li>Arduino programmation 🔘</li>
-        <li>Laser 🔘</li>
-        <li>Solidworks 🔘</li>
-        <li>Wiring 🔘</li>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
+      <ul data-i18n-list="skills_drinking" type="none">
       </ul>
     </div>
     <img class="imagesProjets" src="medias/boitepicole.png" />
@@ -165,28 +144,24 @@
       <br />
       <img class="iconsLevees" src="medias/clap.png" style="width : 64px; height : 64px;" />
       <br />
-      <span style="font-size:1.3em; font-family: marianneExtraBold;">Movies</span>
+      <span data-i18n="movies" style="font-size:1.3em; font-family: marianneExtraBold;"></span>
       <br /><br />
-      <span>I was able in the personal, school or associative context, to make short films (documentary or fiction).</span>
+      <span data-i18n="movies_desc"></span>
       <br /><br />
       <a href="https://www.youtube.com/watch?v=XYFgU-wVLu4">
-        <div class="boutonSmooth">Fiction <i style="font-size:0.8em;">2022</i> ></div>
+        <div data-i18n="fiction" class="boutonSmooth"><i style="font-size:0.8em;">2022</i> ></div>
       </a>
       <br /><br />
       <a href="https://youtu.be/RewsZpGza94">
-        <div class="boutonSmooth">Documentary <i style="font-size:0.8em;">2016</i> ></div>
+        <div data-i18n="documentary" class="boutonSmooth"><i style="font-size:0.8em;">2016</i> ></div>
       </a>
       <br /><br />
       <a href="https://youtu.be/nonHtp3F2so">
-        <div class="boutonSmooth">Landscapes <i style="font-size:0.8em;">2022</i> ></div>
+        <div data-i18n="landscapes" class="boutonSmooth"><i style="font-size:0.8em;">2022</i> ></div>
       </a>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
-      <ul type="none">
-        <li>🔘 Video Editing <i>(Premiere Pro)</i></li>
-        <li>🔘 Special effects <i>(After effect)</i></li>
-        <li>🔘 Planning and scenario</li>
-        <li>🔘 Data management</li>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
+      <ul data-i18n-list="skills_movies" type="none">
       </ul>
     </div>
   </div>
@@ -198,9 +173,11 @@
       <br />
       <span style="font-size:1.3em; font-family: marianneExtraBold;">Electronic dice</span>
       <br /><br />
-      <span>I made an electronic dice. Quite simple, it uses an inclinometer and a LED matrix. It allowed me to understand the pcb since it is based on a perforated card of copper eyelets on which the routing is made with tin.</span>
+      <span>I made an electronic dice. Quite simple, it uses an inclinometer and a LED matrix.
+         It allowed me to understand the pcb since it is based on a perforated card of copper 
+         eyelets on which the routing is made with tin.</span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
       <ul type="none">
         <li>Welding 🔘</li>
         <li>Arduino 🔘</li>
@@ -211,16 +188,17 @@
   </div>
 
   <div class="doubleFlex">
-    <img class="imagesProjets" src="medias/batteur.jpg" />
+    <img class="imagesProjets" src="medias/musician.jpg" />
     <div class="boiteLateraleDroite">
       <br />
       <img class="iconsLevees" src="medias/drumlogo.png" style="width : 64px; height : 64px;" />
       <br />
       <span style="font-size:1.3em; font-family: marianneExtraBold;">Musician</span>
       <br /><br />
-      <span>I've been playing drums since I was 7. I was thus able to take part in many musical projects in orchestra, in band or with the various groups for which I have play.</span>
+      <span>I've been playing drums since I was 7. I was thus able to take part in many musical 
+        projects in orchestra, in band or with the various groups for which I have play.</span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
       <ul type="none">
         <li>🔘 Teamwork</li>
         <li>🔘 Passion</li>
@@ -234,11 +212,15 @@
       <br />
       <img class="iconsLevees" src="medias/phone.png" style="width : 64px; height : 64px;" />
       <br />
-      <span style="font-size:1.3em; font-family: marianneExtraBold;">An app for the Werewolf game</span>
+      <span style="font-size:1.3em; font-family: marianneExtraBold;">App for the Werewolf game</span>
       <br /><br />
-      <span>I started developing this app (it's in progress). However one of the three modes that I had imagined does work. The plan and visuals of the two others are finished. This application will replace the card game by synchronizing players' phones via wifi. For now it only replaces the master of the game. Regarding the user experience, it has a day and night mode and adapts to the size of the screen of the users</span>
+      <span>I started developing this app (it's in progress). However one of the three modes 
+        that I had imagined does work. The plan and visuals of the two others are finished. 
+        This application will replace the card game by synchronizing players' phones via wifi. 
+        For now it only replaces the master of the game. Regarding the user experience, it has a 
+        day and night mode and adapts to the size of the screen of the users</span>
       <br /><br />
-      <span style="font-size:1.3em;">Skills used :</span>
+      <span data-i18n="skills_used" style="font-size:1.3em;"></span>
       <ul type="none">
         <li>Java 🔘</li>
         <li>UML 🔘</li>
@@ -251,8 +233,9 @@
   <br /><br />
 
   <div id='competences'>
-    <span style="font-size: 2em;">Skills</span><br />
-    <span style="font-size: 1.3em;">These various projects allowed me to acquire a large number of skills gathered in the map below.</span><br />
+    <span data-i18n="skills" style="font-size: 2em;">Skills</span><br />
+    <span style="font-size: 1.3em;">These various projects allowed me to acquire a large 
+      number of skills gathered in the map below.</span><br />
     <span style="color:grey;">ⓘ <i>Move your mouse over the items in the tree</i></span><br />
     <br />
 
