@@ -1,3 +1,95 @@
 {
-    "subtitle": "Ingénieur Mécatronicien Junior"
+    "subtitle": "Ingénieur Mécatronicien Junior",
+    "about": "À propos",
+    "album": "Album",
+    "skills": "Compétences",
+    "linkedin": "Linkedin",
+    "think": "Penser",
+    "design": "Concevoir",
+    "make": "Fabriquer",
+
+    "personnal_description": "Thibaut Bourgeais, Ingénieur Mécatronicien passionné<br />Voici mon <mark>portfolio</mark><br /><br />",
+    "resume_dl": "Voir mon CV",
+    "about_me": "À propos de moi",
+    "professional_description": "Diplomé en 2024, j'ai un an et demi d'expérience à divers postes et j'ai déjà porté plusieurs projets...",
+
+    "ckc_website": "Le site CKC",
+    "ckc_website_desc": "Un site internet, conçu pour vendre les produits de la marque CKC. Dont le concept est d'apporter l'impression 3D aux personnes n'ayant pas de compétences ou pas de machines.",
+    "skills_used": "Compétences utilisées :",
+    "skills_ckc": [
+        "🔘 HTML, CSS",
+        "🔘 Impression 3D",
+        "🔘 Ligiciels de CAO",
+        "🔘 Communication"
+    ],
+    "visit_website": "Visiter le site",
+
+    "FPV_drone": "Drone de course FPV",
+    "FPV_drone_desc": "I assembled, welded and then programmed my kit racing drone. It must then be repaired and kept up to date when there is a crash",
+    "skills_drone": [
+        "Soudure 🔘",
+        "Minutie 🔘",
+        "Maintenance 🔘",
+        "Précision 🔘"
+    ],
+
+    "student_office": "Élection au bureau des étudiants",
+    "student_office_desc": "Avec 35 autres étudiants, nous avons monté la liste \"INS'Avengers\" où je suis vice-président de la communication et pour laquelle nous avons dû trouver des financements afin de réaliser un film et faire une semaine entière remplie d'activités. Nous avons été élu.<br /> Pour réussir nous avons appris beaucoup sur le travail d'équipe, la gestion de compétences et le volontariat. J'ai été en charge de la communication sur les réseaux (ainsi que de divers assets que nous avons pu publier sur ceux-ci), la prise de vues et du montage du film et du site.",
+    "skills_student_office": [
+        "🔘 Communication",
+        "🔘 Travail d'équipe",
+        "🔘 Volontariat",
+        "🔘 Assiduité",
+        "🔘 Compétitivité",
+        "🔘 Réseaux sociaux",
+        "🔘 Montage Video, photo et prise de vue"
+    ],
+
+    "drinking_game": "Jeu électronique en bois",
+    "drinking_game_desc": "J'ai créé un jeu à boire électronique dont le boîtier est fait en MDF 3mm découpé au laser. À l'intérieur une carte arduino UNO se charge d'animer les jeux. Les verres sont illuminés en fonction du jeu et un écran LCD i2c gère l'affichage des consignes.",
+    "skills_drinking": [
+        "Programmation C 🔘",
+        "Laser 🔘",
+        "Solidworks 🔘",
+        "Câblage 🔘"
+    ],
+
+    "movies": "Films",
+    "movies_desc": "J'ai pu dans le cadre personnel, scolaire ou associatif, réaliser des courts-métrages (docmuentaires ou de fiction).",
+
+    "fiction": "Fiction ",
+    "documentary": "Documentaire ",
+    "landscapes": "Paysages ",
+    "skills_movies": [
+        "🔘 Montage Video <i>(Premiere Pro)</i>",
+        "🔘 Effets Speciaux <i>(After effect)</i>",
+        "🔘 Plannification et scénario",
+        "🔘 Gestion de donnés"
+    ],
+
+    "electronic_dice": "Dé électronique",
+    "electronic_dice_desc": "J'ai pu faire un dé électronique. Assez simple, il fait appel à un inclinomètre et une matrice led. Il m'a permis d'appréhender les pcb puisqu'il est basé sur une carte perforée d'oeillets de cuivre sur laquelle on fait le routage avec de l'étain.",
+    "skills_electronic_dice": [
+        "🔘 Soudure",
+        "🔘 C++",
+        "🔘 Impression 3D"
+    ],
+
+    "musician": "Musicien",
+    "musician_desc": "Depuis mes 7ans je joue de la batterie. J'ai ainsi pu participer à beaucoup de projets musicaux en orchestre, en band ou avec les différents groupes pour lesquels j'ai pu jouer.",
+    "musician_skills": [
+        "🔘 Travail d'équipe",
+        "🔘 Passion",
+        "🔘 Patience"
+    ],
+
+    "werewolf_app": "Application pour le jeu Loup-Garou",
+    "warewolf_app_desc": "J'ai développé cette application pour aider le maitre du jeu à organiser sa partie de Loups-Garou.",
+    "skills_werewolf": [
+        "Java 🔘",
+        "Self-learning 🔘"
+    ],
+
+    "skills_footer_line": "Ces divers projets m'ont permis d'acquérir un grand nombre de compétences rassemblées dans la carte ci-dessous.",
+    "skills_footer_line_info": "ⓘ <i>Déplacez votre souris sur les éléments de l'arbre</i>"
 }

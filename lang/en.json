@@ -8,7 +8,7 @@
     "design": "Design",
     "make": "Make",
 
-    "personnal_description": "Thibaut Bourgeais, passionate Mechatronics Engineer <br /> Welcome to my <mark>portfolio</mark><br /></br>",
+    "personnal_description": "Thibaut Bourgeais, passionate Mechatronics Engineer <br /> Welcome to my <mark>portfolio</mark><br /><br>",
     "resume_dl": "See my resume",
     "about_me": "About me",
     "professional_description": "Graduated in 2024, I have one and a half years of experience in diverse positions and already carried out many projects. Fluent in English and French I am eager to work in a startup environment.",
@@ -46,7 +46,7 @@
     ],
 
     "drinking_game": "Wooden electronic game",
-    "drinking_game_desc": "I created an electronic drinking game whose box is made of 3mm laser cut MDF. Inside, an arduino UNO card is responsible for animating the games. The glasses are illuminated according to the game and an i2c LCD screen manages the display of instructions.</span>",
+    "drinking_game_desc": "I created an electronic drinking game whose box is made of 3mm laser cut MDF. Inside, an arduino UNO card is responsible for animating the games. The glasses are illuminated according to the game and an i2c LCD screen manages the display of instructions.",
     "skills_drinking": [
         "C programming 🔘",
         "Laser 🔘",
@@ -65,7 +65,32 @@
         "🔘 Special effects <i>(After effect)</i>",
         "🔘 Planning and scenario",
         "🔘 Data management"
-    ]
-    
+    ],
 
+    "electronic_dice": "Electronic dice",
+    "electronic_dice_desc": "I made an electronic dice. Quite simple, it uses an inclinometer and a LED matrix.It allowed me to understand the pcb since it is based on a perforated card of copper eyelets on which the routing is made with tin.",
+    "skills_electronic_dice": [
+        "🔘 Soldering",
+        "🔘 C++",
+        "🔘 3D printing"
+    ],
+
+    "musician": "Musician",
+    "musician_desc": "I've been playing drums since I was 7. I was thus able to take part in many musical projects in orchestra, in band or with the various groups for which I have play.",
+    "musician_skills": [
+        "🔘 Teamwork",
+        "🔘 Passion",
+        "🔘 Patience"
+    ],
+
+    "werewolf_app": "App for the Werewolf game",
+    "warewolf_app_desc": "I developped this app to help the master of the game to organize his Werewolf game.",
+    "skills_werewolf": [
+        "Java 🔘",
+        "UML 🔘",
+        "Self-learning 🔘"
+    ],
+
+    "skills_footer_line": "These various projects allowed me to acquire a large number of skills gathered in the map below.",
+    "skills_footer_line_info": "ⓘ <i>Move your mouse over the items in the tree</i>"
 }
